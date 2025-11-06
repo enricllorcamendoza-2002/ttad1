@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xmlns:time="http://www.w3.org/2006/time#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <dcat:CatalogRecord rdf:about="https://datos.gob.es/catalogo/l01480209-presupuesto-de-gastos-del-ayuntamiento-de-bilbao-de-2023/record">
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="https://datos.gob.es/catalogo/l01480209-presupuesto-de-gastos-del-ayuntamiento-de-bilbao-de-2023">
+        <dct:title xml:lang="eu">Bilboko Udalaren gastuen Aurrekontuak 2023</dct:title>
+        <dct:title xml:lang="es">Presupuesto de gastos del Ayuntamiento de Bilbao de 2023</dct:title>
+        <dct:description xml:lang="eu">Bilboko Udalaren gastuen Aurrekontuak 2023</dct:description>
+        <dct:description xml:lang="es">Presupuesto de gastos del Ayuntamiento de Bilbao de 2023.</dct:description>
+        <dct:publisher rdf:resource="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01480209"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/economia"/>
+        <dcat:theme rdf:resource="http://datos.gob.es/kos/sector-publico/sector/sector-publico"/>
+        <dcat:keyword xml:lang="es">2023</dcat:keyword>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Vizcaya"/>
+        <dct:identifier>http://www.bilbao.net/opendata/catalogo/dato-presupuesto-gastos-2023</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-09T00:00:00+01:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-09T00:00:00+01:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:accrualPeriodicity rdf:resource="https://datos.gob.es/catalogo/l01480209-presupuesto-de-gastos-del-ayuntamiento-de-bilbao-de-2023/Frequency"/>
+        <dcat:distribution rdf:resource="https://datos.gob.es/catalogo/l01480209-presupuesto-de-gastos-del-ayuntamiento-de-bilbao-de-2023/resource/4f0734b6-c16a-4053-8108-b50d124580c6"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-30T06:36:51.618117+02:00</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-01-26T13:50:07.144877+01:00</dct:issued>
+  </dcat:CatalogRecord>
+  <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01480209">
+    <foaf:name xml:lang="es">Ayuntamiento de Bilbao</foaf:name>
+    <dct:identifier>L01480209</dct:identifier>
+  </foaf:Agent>
+  <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l01480209-presupuesto-de-gastos-del-ayuntamiento-de-bilbao-de-2023/Frequency">
+    <rdf:value>
+      <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l01480209-presupuesto-de-gastos-del-ayuntamiento-de-bilbao-de-2023/DurationDescription">
+        <time:years rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1</time:years>
+      </time:DurationDescription>
+    </rdf:value>
+  </dct:Frequency>
+  <dcat:Distribution rdf:about="https://datos.gob.es/catalogo/l01480209-presupuesto-de-gastos-del-ayuntamiento-de-bilbao-de-2023/resource/4f0734b6-c16a-4053-8108-b50d124580c6">
+    <dcat:accessURL rdf:resource="https://www.bilbao.eus/bilbaoopendata/economia/presupuesto_gastos_2023.csv"/>
+    <dct:format>
+      <dct:IMT rdf:about="https://datos.gob.es/catalogo/l01480209-presupuesto-de-gastos-del-ayuntamiento-de-bilbao-de-2023/resource/4f0734b6-c16a-4053-8108-b50d124580c6/format">
+        <rdfs:label>CSV</rdfs:label>
+        <rdf:value>text/csv</rdf:value>
+      </dct:IMT>
+    </dct:format>
+    <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/es"/>
+    <dct:title xml:lang="es">CSV</dct:title>
+    <dct:title xml:lang="eu">CSV</dct:title>
+    <dct:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://www.bilbao.net/opendata/es/datos/dato-presupuesto-gastos-2023/csv</dct:identifier>
+  </dcat:Distribution>
+</rdf:RDF>
